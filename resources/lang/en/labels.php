@@ -1,0 +1,202 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Labels Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used in labels throughout the system.
+    | Regardless where it is placed, a label can be listed here so it is easily
+    | found in a intuitive way.
+    |
+    */
+
+    'general' => [
+        'all' => 'All',
+        'yes' => 'Yes',
+        'no' => 'No',
+        'custom' => 'Custom',
+        'actions' => 'Actions',
+        'buttons' => [
+            'save' => 'Save',
+            'update' => 'Update',
+        ],
+        'hide' => 'Hide',
+        'none' => 'None',
+        'show' => 'Show',
+        'toggle_navigation' => 'Toggle Navigation',
+    ],
+
+    'backend' => [
+        'access' => [
+            'roles' => [
+                'create' => 'Create Role',
+                'edit' => 'Edit Role',
+                'management' => 'Role Management',
+
+                'table' => [
+                    'number_of_users' => 'Number of Users',
+                    'permissions' => 'Permissions',
+                    'role' => 'Role',
+                    'sort' => 'Sort',
+                    'total' => 'role total|roles total',
+                ],
+            ],
+
+            'users' => [
+                'active' => 'Active Users',
+                'all_permissions' => 'All Permissions',
+                'change_password' => 'Change Password',
+                'change_password_for' => 'Change Password for :user',
+                'create' => 'Create User',
+                'deactivated' => 'Deactivated Users',
+                'deleted' => 'Deleted Users',
+                'edit' => 'Edit User',
+                'management' => 'User Management',
+                'no_permissions' => 'No Permissions',
+                'no_roles' => 'No Roles to set.',
+                'permissions' => 'Permissions',
+
+                'table' => [
+                    'confirmed' => 'Confirmed',
+                    'created' => 'Created',
+                    'email' => 'E-mail',
+                    'id' => 'ID',
+                    'last_updated' => 'Last Updated',
+                    'name' => 'Name',
+                    'no_deactivated' => 'No Deactivated Users',
+                    'no_deleted' => 'No Deleted Users',
+                    'roles' => 'Roles',
+                    'total' => 'user total|users total',
+                ],
+            ],
+        ],
+        
+        'corporate-deck' => [
+            'title' => 'Corporate Deck Management',
+            'title_list' => 'Corporate Deck List',
+            'add_new' => 'Add New',
+            'create' => 'Create Corporate Deck',
+            'edit' => 'Edit Corporate Deck',
+            'management' => 'Corporate Deck Management',
+            'table' => [                
+                'created' => 'Created',
+                'id' => 'ID',
+                'last_updated' => 'Last Updated',
+                'name' => 'Name',
+                'deleted' => 'Deleted',
+                'image' => 'Image',
+                'total' => 'corporate deck total|corporate decks total',
+                'user_id' => 'User ID',
+                'status' => 'Status',
+                'description' => 'Description',
+                'pdf' => 'PDF File'
+            ],
+        ],
+        'category' => [
+            'title' => 'Category Management',
+            'title_list' => 'Category List',
+            'add_new' => 'Add New',
+            'create' => 'Create Category',
+            'edit' => 'Edit Category',
+            'management' => 'Category Management',
+            'table' => [                
+                'created' => 'Created',
+                'id' => 'ID',
+                'last_updated' => 'Last Updated',
+                'name' => 'Name',
+                'deleted' => 'Deleted',
+                'image' => 'Image',
+                'total' => 'corporate deck total|corporate decks total',
+                'user_id' => 'User ID',
+                'status' => 'Status',
+                'description' => 'Description'
+            ],
+        ],
+        'product-catalogue' => [
+            'title' => 'Product Catalogue Management',
+            'title_list' => 'Product Catalogue List',
+            'add_new' => 'Add New',
+            'create' => 'Create Product Catalogue',
+            'edit' => 'Edit Product Catalogue',
+            'management' => 'Product Catalogue Management',
+            'table' => [                
+                'created' => 'Created',
+                'id' => 'ID',
+                'last_updated' => 'Last Updated',
+                'name' => 'Name',
+                'deleted' => 'Deleted',
+                'image' => 'Image',
+                'total' => 'corporate deck total|corporate decks total',
+                'user_id' => 'User ID',
+                'status' => 'Status',
+                'description' => 'Description',
+                'category_name' => 'Category'
+            ],
+        ],
+    ],
+
+    'frontend' => [
+
+        'auth' => [
+            'login_box_title' => 'Login',
+            'login_button' => 'Login',
+            'login_with' => 'Login with :social_media',
+            'register_box_title' => 'Register',
+            'register_button' => 'Register',
+            'remember_me' => 'Remember Me',
+        ],
+
+        'passwords' => [
+            'forgot_password' => 'Forgot Your Password?',
+            'reset_password_box_title' => 'Reset Password',
+            'reset_password_button' => 'Reset Password',
+            'send_password_reset_link_button' => 'Send Password Reset Link',
+        ],
+
+        'macros' => [
+            'country' => [
+                'alpha' => 'Country Alpha Codes',
+                'alpha2' => 'Country Alpha 2 Codes',
+                'alpha3' => 'Country Alpha 3 Codes',
+                'numeric' => 'Country Numeric Codes',
+            ],
+
+            'macro_examples' => 'Macro Examples',
+
+            'state' => [
+                'mexico' => 'Mexico State List',
+                'us' => [
+                    'us' => 'US States',
+                    'outlying' => 'US Outlying Territories',
+                    'armed' => 'US Armed Forces',
+                ],
+            ],
+
+            'territories' => [
+                'canada' => 'Canada Province & Territories List',
+            ],
+
+            'timezone' => 'Timezone',
+        ],
+
+        'user' => [
+            'passwords' => [
+                'change' => 'Change Password',
+            ],
+
+            'profile' => [
+                'avatar' => 'Avatar',
+                'created_at' => 'Created At',
+                'edit_information' => 'Edit Information',
+                'email' => 'E-mail',
+                'last_updated' => 'Last Updated',
+                'name' => 'Name',
+                'update_information' => 'Update Information',
+            ],
+        ],
+
+    ],
+];
